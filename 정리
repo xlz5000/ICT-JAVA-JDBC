@@ -1,0 +1,36 @@
+[1]	class A { // 클래스
+	[2] int A; // 멤버변수
+	[3]	A() {} // 생성자
+	[4] void A() {} // 멤버메소드
+}
+
+//static은 다른 변수들과 다르게 올려두는 장소가 따로있다고 생각하면 편함.그리고 젤 먼저 올라감.
+[1]public abstract final 
+[2]private protected public static final 
+[3]private protected public
+[4]private protected public static abstract final
+
+
+--------------------------------------
+
+class A{
+	int A;
+	A() {}
+	void A() {}
+}
+
+interface B{
+	[1]	int B;
+	[2]	void B();
+}
+
+
+//interface는 뼈대 즉 규칙적이게 하기 위한 것이라고 생각하면 됨. addListener같은 이벤트 처리는 다 lnterface임
+// 추상클래스는 기능이 부분적으로만 안하고, interface는 걍 안함. 그냥 틀 같은 존재
+*interface modify 고정(자동)
+[1] public static final // 상수, 객체생성못하기에 접근하기 위해 static을 붙임
+[2] public abstract 
+(함수 앞에 abstract 쓸 때 public abstract 함수이름();)
+
+*생성자함수 없음
+*메소드 미완성
